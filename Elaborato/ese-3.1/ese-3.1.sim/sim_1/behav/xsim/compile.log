@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/ese-3.1/ese-3.1.srcs/sources_1/new/sequence_rec.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sequence_rec'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/ese-3.1/ese-3.1.srcs/sim_1/new/testbench_rec.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_sequence_rec'
