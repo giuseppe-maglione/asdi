@@ -22,7 +22,7 @@ architecture Behavioral of tb_system_S is
     signal enable : std_logic;
     signal data_out : std_logic_vector(3 downto 0);
 
-    -- Clock period definition
+    -- periodo di clock
     constant clk_period : time := 10 ns;
 
 begin
