@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../exe-4.1.srcs/sources_1/new/demux_gen.vhd" \
+"../../../../exe-4.1.srcs/sources_1/new/flipflop_D.vhd" \
+"../../../../exe-4.1.srcs/sources_1/new/mux_2x1.vhd" \
+"../../../../exe-4.1.srcs/sources_1/new/mux_4x1.vhd" \
+"../../../../exe-4.1.srcs/sources_1/new/shift_reg_generic.vhd" \
+"../../../../exe-4.1.srcs/sim_1/new/testbench_sr.vhd" \
+
+# Do not sort compile order
+nosort
