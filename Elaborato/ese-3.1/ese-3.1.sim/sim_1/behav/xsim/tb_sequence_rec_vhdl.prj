@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../ese-3.1.srcs/sources_1/new/sequence_rec.vhd" \
-"../../../../ese-3.1.srcs/sim_1/new/testbench_rec.vhd" \
-
-# Do not sort compile order
-nosort
