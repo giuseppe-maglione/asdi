@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../exe-5.1.srcs/sources_1/new/load_counter.vhd" \
+"../../../../exe-5.1.srcs/sources_1/new/chronometer.vhd" \
+"../../../../exe-5.1.srcs/sim_1/new/testbench_chronometer.vhd" \
+
+# Do not sort compile order
+nosort
