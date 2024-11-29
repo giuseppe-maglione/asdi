@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../exe-8.1.srcs/sources_1/new/generic_counter.vhd" \
+"../../../../exe-8.1.srcs/sources_1/new/generic_mem.vhd" \
+"../../../../exe-8.1.srcs/sources_1/new/generic_rom.vhd" \
+"../../../../exe-8.1.srcs/sources_1/new/node_A.vhd" \
+"../../../../exe-8.1.srcs/sources_1/new/node_B.vhd" \
+"../../../../exe-8.1.srcs/sources_1/new/system.vhd" \
+"../../../../exe-8.1.srcs/sim_1/new/testbench_S.vhd" \
+
+# Do not sort compile order
+nosort
