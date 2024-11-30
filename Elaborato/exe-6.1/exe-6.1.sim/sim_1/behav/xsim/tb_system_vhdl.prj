@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../exe-6.1.srcs/sources_1/imports/Elaborato/exe-8.1/exe-8.1.srcs/sources_1/new/generic_counter.vhd" \
+"../../../../exe-6.1.srcs/sources_1/imports/Elaborato/exe-8.1/exe-8.1.srcs/sources_1/new/generic_mem.vhd" \
+"../../../../exe-6.1.srcs/sources_1/imports/Elaborato/exe-8.1/exe-8.1.srcs/sources_1/new/generic_rom.vhd" \
+"../../../../exe-6.1.srcs/sources_1/imports/Elaborato/exe-2.1/exe-2.1.srcs/sources_1/new/machine_M.vhd" \
+"../../../../exe-6.1.srcs/sources_1/new/system_S.vhd" \
+"../../../../exe-6.1.srcs/sim_1/new/testbench_S.vhd" \
+
+# Do not sort compile order
+nosort
