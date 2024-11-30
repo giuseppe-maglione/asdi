@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Scuola/Anno 2024-2025/Architettura dei Sistemi Digitali/Elaborato/exe-5.1/exe-5.1.srcs/sources_1/new/chronometer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'chronometer'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Scuola/Anno 2024-2025/Architettura dei Sistemi Digitali/Elaborato/exe-5.1/exe-5.1.srcs/sim_1/new/testbench_chronometer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_chronometer'
