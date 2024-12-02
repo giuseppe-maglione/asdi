@@ -5,7 +5,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 -- il segnale di reset dopo ogni operazione deve essere gestito dall'interno tramite rst_components
 -- attualmente il moltiplicatore viene resettato a mano nel tb dopo ogni operazione
 -- DA FARE:
--- separa unit‡ di controllo e operativa
+-- separa unit√† di controllo e operativa
 -- DA FARE:
 -- scrivi una funzione per calcolare il nr di bit necessari al contatore per codificare counter
 
@@ -26,7 +26,7 @@ end booth_multiplier;
 
 architecture Behavioral of booth_multiplier is
 
-type state is (idle, load_data, mid, scan, rshift, incr, finish);
+type state is (idle, load_data, wait_op, scan, rshift, incr, finish);
 signal curr_state: state := idle;
 
 -- SCRIVI UNA FUNZIONE CHE CALCOLA AUTOMATICAMENTE CNT_LEN!
@@ -88,7 +88,7 @@ AQ_serial <= AQ_out(2*N);
 AQ_init <= "00000000" & x0 & "0";       -- TOGLI GLI 0 E RENDI GENERALIZZABILE QUESTA OPERAZIONE
 AQ_addsub <= addsub_result & AQ_out(N downto 0);    
     
--- unit‡ di controllo
+-- unit√† di controllo
 control_unit: process(clk)
 begin
 
@@ -119,9 +119,10 @@ begin
                 AQ_sel <= '0';      -- seleziona il valore di inizializzazione per AQ
                 load_AQ <= '1';     -- carica il registro AQ
                 load_M <= '1';        -- carica il registro M
-                curr_state <= mid; 
-            
-            when mid =>
+                curr_state <= wait_op; 
+
+            -- stato necessario per attendere che i registri vengano aggiornati
+            when wait_op =>
                 curr_state <= scan;
             
             -- stato per eseguire le operazioni    
