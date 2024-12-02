@@ -1,0 +1,76 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Dec  1 18:27:10 2024
+# Process ID: 12572
+# Current directory: C:/Users/chris/Downloads/exe-7.1/exe-7.1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14752 C:\Users\chris\Downloads\exe-7.1\exe-7.1\exe-7.1.xpr
+# Log file: C:/Users/chris/Downloads/exe-7.1/exe-7.1/vivado.log
+# Journal file: C:/Users/chris/Downloads/exe-7.1/exe-7.1\vivado.jou
+# Running On: LAPTOP-3L4O7D7K, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 3961 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/flipflop_D.vhd w ]
+add_files C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/flipflop_D.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd w ]
+add_files -fileset sim_1 C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+close [ open C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/extended_and.vhd w ]
+add_files C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/extended_and.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_booth_mutliplier.tcl
+close_sim
+launch_simulation
+source tb_booth_mutliplier.tcl
+current_wave_config {Untitled 2}
+add_wave {{/tb_booth_mutliplier/booth_mul/AQ/clk}} 
+add_bp {C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd} 108
+remove_bps -file {C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd} -line 108
+add_bp {C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd} 108
+remove_bps -file {C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd} -line 108
+add_bp {C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd} 108
+remove_bps -file {C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd} -line 108
+close_sim
+launch_simulation
+launch_simulation
+source tb_booth_mutliplier.tcl
+close_sim
+launch_simulation
+source tb_booth_mutliplier.tcl
+current_wave_config {Untitled 4}
+add_wave {{/tb_booth_mutliplier/booth_mul/AQ/load}} 
+close_sim
+launch_simulation
+source tb_booth_mutliplier.tcl
+close_sim
+launch_simulation
+source tb_booth_mutliplier.tcl
+close_sim
+launch_simulation
+launch_simulation
+source tb_booth_mutliplier.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
