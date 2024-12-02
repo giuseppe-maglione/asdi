@@ -1,0 +1,135 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Dec  2 21:04:34 2024
+# Process ID: 880
+# Current directory: C:/Users/chris/Downloads/exe-7.1/exe-7.1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4628 C:\Users\chris\Downloads\exe-7.1\exe-7.1\exe-7.1.xpr
+# Log file: C:/Users/chris/Downloads/exe-7.1/exe-7.1/vivado.log
+# Journal file: C:/Users/chris/Downloads/exe-7.1/exe-7.1\vivado.jou
+# Running On: LAPTOP-3L4O7D7K, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 3961 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/ext_mux_2x1.vhd w ]
+add_files C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/ext_mux_2x1.vhd
+update_compile_order -fileset sources_1
+launch_simulation
+close_project
+open_project C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source mbooth_tb.tcl
+close_sim
+close_project
+open_project C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+source tb_booth_mutliplier.tcl
+close_sim
+launch_simulation
+source tb_booth_mutliplier.tcl
+close_sim
+export_ip_user_files -of_objects  [get_files C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_encoder.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_encoder.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/flipflop_D.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/flipflop_D.vhd
+file delete -force C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/flipflop_D.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/extended_and.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/extended_and.vhd
+file delete -force C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/extended_and.vhd
+launch_simulation
+source tb_booth_mutliplier.tcl
+close_sim
+add_files -norecurse {C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/ripple_carry.vhd C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/full_adder.vhd C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/adder_sub.vhd}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+export_ip_user_files -of_objects  [get_files C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/ripple_carry.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/ripple_carry.vhd
+file delete -force C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/ripple_carry.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+export_ip_user_files -of_objects  [get_files C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/adder_subtracter.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/adder_subtracter.vhd
+file delete -force C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/adder_subtracter.vhd
+launch_simulation
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_booth_mutliplier.tcl
+close_sim
+launch_simulation
+launch_simulation
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/adder_sub.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/adder_sub.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/ripple_carry.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/ripple_carry.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/full_adder.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/full_adder.vhd
+file delete -force C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/full_adder.vhd
+close [ open C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/adder_subtracter.vhd w ]
+add_files C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/adder_subtracter.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/full_adder.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/full_adder.vhd
+update_compile_order -fileset sources_1
+close [ open C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/ripple_carry.vhd w ]
+add_files C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/ripple_carry.vhd
+update_compile_order -fileset sources_1
+close [ open C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/full_adder.vhd w ]
+add_files C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/full_adder.vhd
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_booth_mutliplier.tcl
+close_sim
+launch_simulation
+source tb_booth_mutliplier.tcl
+close_sim
+launch_simulation
+source tb_booth_mutliplier.tcl
+close_sim
+launch_simulation
+source tb_booth_mutliplier.tcl
+close_sim
+launch_simulation
+source tb_booth_mutliplier.tcl
+close_sim
+launch_simulation
+source tb_booth_mutliplier.tcl
+close_sim
+launch_simulation
+source tb_booth_mutliplier.tcl
+close_sim
+launch_simulation
+source tb_booth_mutliplier.tcl
+close_sim
+launch_simulation
+source tb_booth_mutliplier.tcl
+close_sim
+launch_simulation
+source tb_booth_mutliplier.tcl
+close_sim
+launch_simulation
+source tb_booth_mutliplier.tcl
+close_sim
+launch_simulation
+source tb_booth_mutliplier.tcl
+close_sim
+launch_simulation
+source tb_booth_mutliplier.tcl
+close_sim
+launch_simulation
+source tb_booth_mutliplier.tcl
+close_sim
