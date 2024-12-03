@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../exe-10.srcs/sources_1/imports/new/generic_counter.vhd" \
+"../../../../exe-10.srcs/sources_1/imports/new/generic_mem.vhd" \
+"../../../../exe-10.srcs/sources_1/imports/new/generic_rom.vhd" \
+"../../../../exe-10.srcs/sources_1/imports/new/generic_shiftreg.vhd" \
+"../../../../exe-10.srcs/sources_1/new/uart_A.vhd" \
+"../../../../exe-10.srcs/sources_1/new/node_A.vhd" \
+"../../../../exe-10.srcs/sources_1/new/uart_B.vhd" \
+"../../../../exe-10.srcs/sources_1/new/unit_B.vhd" \
+"../../../../exe-10.srcs/sources_1/new/system_S.vhd" \
+"../../../../exe-10.srcs/sim_1/new/testbench_S.vhd" \
+
+# Do not sort compile order
+nosort
