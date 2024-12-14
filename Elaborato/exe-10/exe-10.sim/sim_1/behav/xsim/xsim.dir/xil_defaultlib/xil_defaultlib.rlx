@@ -1,0 +1,12 @@
+0.7
+2020.2
+May  7 2023
+15:24:31
+C:/Users/chris/Downloads/exe-10/exe-10.srcs/sim_1/new/testbench_S.vhd,1734173818,vhdl,,,,tb_systems,,,,,,,,
+C:/Users/chris/Downloads/exe-10/exe-10.srcs/sources_1/imports/interfaccia seriale/RS232RefComp.vhd,1734175704,vhdl,C:/Users/chris/Downloads/exe-10/exe-10.srcs/sources_1/new/unit_A.vhd;C:/Users/chris/Downloads/exe-10/exe-10.srcs/sources_1/new/unit_B.vhd,,,uartcomponent,,,,,,,,
+C:/Users/chris/Downloads/exe-10/exe-10.srcs/sources_1/imports/new/generic_counter.vhd,1734168798,vhdl,C:/Users/chris/Downloads/exe-10/exe-10.srcs/sources_1/new/unit_A.vhd;C:/Users/chris/Downloads/exe-10/exe-10.srcs/sources_1/new/unit_B.vhd,,,generic_counter,,,,,,,,
+C:/Users/chris/Downloads/exe-10/exe-10.srcs/sources_1/imports/new/generic_mem.vhd,1734168798,vhdl,C:/Users/chris/Downloads/exe-10/exe-10.srcs/sources_1/new/unit_B.vhd,,,generic_mem,,,,,,,,
+C:/Users/chris/Downloads/exe-10/exe-10.srcs/sources_1/imports/new/generic_rom.vhd,1734168798,vhdl,C:/Users/chris/Downloads/exe-10/exe-10.srcs/sources_1/new/unit_A.vhd,,,generic_rom,,,,,,,,
+C:/Users/chris/Downloads/exe-10/exe-10.srcs/sources_1/new/system_S.vhd,1734171985,vhdl,C:/Users/chris/Downloads/exe-10/exe-10.srcs/sim_1/new/testbench_S.vhd,,,system_s,,,,,,,,
+C:/Users/chris/Downloads/exe-10/exe-10.srcs/sources_1/new/unit_A.vhd,1734175724,vhdl,C:/Users/chris/Downloads/exe-10/exe-10.srcs/sources_1/new/system_S.vhd,,,unit_a,,,,,,,,
+C:/Users/chris/Downloads/exe-10/exe-10.srcs/sources_1/new/unit_B.vhd,1734175808,vhdl,C:/Users/chris/Downloads/exe-10/exe-10.srcs/sources_1/new/system_S.vhd,,,unit_b,,,,,,,,
