@@ -1,9 +1,0 @@
-Vivado Simulator v2023.1
-Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: D:/Programmi/Vivado2023.1/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_shift_reg_generic_behav xil_defaultlib.tb_shift_reg_generic -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-WARNING: [VRFC 10-3813] value in initialization depends on signal 'shift_num' [D:/Scuola/Anno 2024-2025/Architettura dei Sistemi Digitali/Elaborato/exe-4.1/exe-4.1.srcs/sources_1/new/shift_reg_generic.vhd:65]
-ERROR: [VRFC 10-923] index value <8> is out of range [7:0] of array <ff_out> [D:/Scuola/Anno 2024-2025/Architettura dei Sistemi Digitali/Elaborato/exe-4.1/exe-4.1.srcs/sources_1/new/shift_reg_generic.vhd:81]
-ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_shift_reg_generic in library work failed.
