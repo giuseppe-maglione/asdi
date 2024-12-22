@@ -25,10 +25,9 @@ signal curr_state: state := idle;
 signal CNT_LEN: natural := 3;       -- log2(N) +1, necessario per il contatore
 
 -- segnali di interconnessione tra componenti
-signal rst_sys: std_logic := '0';
+signal rst_sys: std_logic := '0';        -- segnale di reset per i componenti, utilizzato prima di avviare la moltiplicazione
 
 signal mul_ended: std_logic := '0';     -- segnale di appoggio per indicare la terminazione della moltiplicazione
-signal rst_components: std_logic := '0';        -- segnale di reset per i componenti, utilizzato prima di avviare la moltiplicazione
 
 signal count: std_logic := '0';     -- segnale per incrementare il conteggio
 signal counter: std_logic_vector(CNT_LEN-1 downto 0);       -- valore corrente del conteggio
@@ -88,7 +87,6 @@ begin
 
     if rising_edge(clk) then
         
-        rst_components <= '0';
         count <= '0';
         subtract <= '0';
         AQ_sel <= '0';
@@ -104,7 +102,6 @@ begin
             when idle =>        
                 rst_sys <= '1';
                 if start = '1' then
-                    rst_components <= '1';
                     curr_state <= load_data;
                 else 
                     curr_state <= idle;
