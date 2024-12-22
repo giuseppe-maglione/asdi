@@ -1,0 +1,1950 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Dec  2 21:04:34 2024
+# Process ID: 880
+# Current directory: C:/Users/chris/Downloads/exe-7.1/exe-7.1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4628 C:\Users\chris\Downloads\exe-7.1\exe-7.1\exe-7.1.xpr
+# Log file: C:/Users/chris/Downloads/exe-7.1/exe-7.1/vivado.log
+# Journal file: C:/Users/chris/Downloads/exe-7.1/exe-7.1\vivado.jou
+# Running On: LAPTOP-3L4O7D7K, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 3961 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.xpr
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-10:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/arty-z7-10/A.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-10:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/boards/board_files/arty-z7-10/A.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-20:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/arty-z7-20/A.0/board.xml as part xc7z020clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-20:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/boards/board_files/arty-z7-20/A.0/board.xml as part xc7z020clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cora-z7-07s:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/cora-z7-07s/B.0/board.xml as part xc7z007sclg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cora-z7-07s:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/boards/board_files/cora-z7-07s/B.0/board.xml as part xc7z007sclg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cora-z7-10:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/cora-z7-10/B.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cora-z7-10:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/boards/board_files/cora-z7-10/B.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:eclypse-z7:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/boards/board_files/eclypse-z7/A.0/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:eclypse-z7:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/boards/board_files/eclypse-z7/B.0/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_3eg:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/boards/board_files/genesys-zu-3eg/B.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_3eg:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/boards/board_files/genesys-zu-3eg/D.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:gzu_5ev:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/boards/board_files/genesys-zu-5ev/C.0/board.xml as part xczu5ev-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zedboard:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zedboard/1.3/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zedboard:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/boards/board_files/zedboard/1.3/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo-z7-10:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zybo-z7-10/A.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo-z7-10:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/boards/board_files/zybo-z7-10/A.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo-z7-20:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zybo-z7-20/A.0/board.xml as part xc7z020clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo-z7-20:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/boards/board_files/zybo-z7-20/A.0/board.xml as part xc7z020clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/boards/board_files/zybo/B.3/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/boards/board_files/zybo/B.4/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.2/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.3/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.4/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.0/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.1/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Common 17-14] Message 'Board 49-26' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:24 . Memory (MB): peak = 1510.281 ; gain = 299.762
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/ext_mux_2x1.vhd w ]
+add_files C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/ext_mux_2x1.vhd
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/generic_shiftreg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'generic_shiftreg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/ext_mux_2x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ext_mux_2x1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'booth_multiplier'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log"
+ECHO disattivato.
+ECHO disattivato.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-8944] expression has 16 elements; formal 'result' expects 17 [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd:26]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_booth_mutliplier in library work failed.
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 1567.879 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '12' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 1582.898 ; gain = 15.277
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+close_project
+open_project C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/pasqu/OneDrive/Desktop/EsASDI/Esercizio_7-1' since last save.
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory 'C:/Users/AppData/Roaming/Xilinx/Vivado/2023.1/xhub/board_store/xilinx_board_store', nor could it be found using path 'C:/Users/pasqu/AppData/Roaming/Xilinx/Vivado/2023.1/xhub/board_store/xilinx_board_store'.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.gen/sources_1'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/shif_register.vhd', nor could it be found using path 'C:/Users/pasqu/OneDrive/Desktop/EsASDI/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/shif_register.vhd'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'mbooth_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'mbooth_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj mbooth_tb_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/adder_sub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'adder_sub'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/cont_mod8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cont_mod8'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/full_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'full_adder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/molt_booth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'molt_booth'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/mux_21.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux_21'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/registro8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'registro8'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/ripple_carry.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ripple_carry'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/unita_controllo.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'unita_controllo'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/unita_operativa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'unita_operativa'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/mbooth_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mbooth_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mbooth_tb_behav xil_defaultlib.mbooth_tb -log elaborate.log"
+ECHO disattivato.
+ECHO disattivato.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mbooth_tb_behav xil_defaultlib.mbooth_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture structural of entity xil_defaultlib.unita_controllo [unita_controllo_default]
+Compiling architecture behavioural of entity xil_defaultlib.registro8 [registro8_default]
+Compiling architecture rtl of entity xil_defaultlib.mux_21 [\mux_21(width=17)\]
+Compiling architecture behavioural of entity xil_defaultlib.shift_register [shift_register_default]
+Compiling architecture rtl of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry [ripple_carry_default]
+Compiling architecture structural of entity xil_defaultlib.adder_sub [adder_sub_default]
+Compiling architecture behavioural of entity xil_defaultlib.cont_mod8 [cont_mod8_default]
+Compiling architecture structural of entity xil_defaultlib.unita_operativa [unita_operativa_default]
+Compiling architecture structural of entity xil_defaultlib.molt_booth [molt_booth_default]
+Compiling architecture behavioural of entity xil_defaultlib.mbooth_tb
+Built simulation snapshot mbooth_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1596.207 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mbooth_tb_behav -key {Behavioral:sim_1:Functional:mbooth_tb} -tclbatch {mbooth_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source mbooth_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mbooth_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 1611.375 ; gain = 15.168
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+ERROR: [VRFC 10-2987] 'booth_multiplier_v2' is not compiled in library 'xil_defaultlib' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd:24]
+ERROR: [VRFC 10-9458] unit 'behavioral' is ignored due to previous errors [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd:7]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+ERROR: [VRFC 10-2987] 'booth_multiplier_v2' is not compiled in library 'xil_defaultlib' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd:24]
+ERROR: [VRFC 10-9458] unit 'behavioral' is ignored due to previous errors [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd:7]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'booth_multiplier'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log"
+ECHO disattivato.
+ECHO disattivato.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.generic_register [generic_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_shiftreg [\generic_shiftreg(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.ext_mux_2x1 [\ext_mux_2x1(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry [ripple_carry_default]
+Compiling architecture structural of entity xil_defaultlib.adder_subtracter [adder_subtracter_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_counter [\generic_counter(n=8,m=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.booth_multiplier [booth_multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_booth_mutliplier
+Built simulation snapshot tb_booth_mutliplier_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_booth_mutliplier_behav -key {Behavioral:sim_1:Functional:tb_booth_mutliplier} -tclbatch {tb_booth_mutliplier.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_booth_mutliplier.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_booth_mutliplier_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 2695.098 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/generic_register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'generic_register'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/generic_shiftreg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'generic_shiftreg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'booth_multiplier'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log"
+ECHO disattivato.
+ECHO disattivato.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.generic_register [generic_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_shiftreg [\generic_shiftreg(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.ext_mux_2x1 [\ext_mux_2x1(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry [ripple_carry_default]
+Compiling architecture structural of entity xil_defaultlib.adder_subtracter [adder_subtracter_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_counter [\generic_counter(n=8,m=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.booth_multiplier [booth_multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_booth_mutliplier
+Built simulation snapshot tb_booth_mutliplier_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_booth_mutliplier_behav -key {Behavioral:sim_1:Functional:tb_booth_mutliplier} -tclbatch {tb_booth_mutliplier.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_booth_mutliplier.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_booth_mutliplier_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 2715.184 ; gain = 2.730
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+export_ip_user_files -of_objects  [get_files C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_encoder.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_encoder.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/flipflop_D.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/flipflop_D.vhd
+file delete -force C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/flipflop_D.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/extended_and.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/extended_and.vhd
+file delete -force C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/extended_and.vhd
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/imports/new/generic_counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'generic_counter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'booth_multiplier'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log"
+ECHO disattivato.
+ECHO disattivato.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.generic_register [generic_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_shiftreg [\generic_shiftreg(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.ext_mux_2x1 [\ext_mux_2x1(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry [ripple_carry_default]
+Compiling architecture structural of entity xil_defaultlib.adder_subtracter [adder_subtracter_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_counter [\generic_counter(n=8,m=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.booth_multiplier [booth_multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_booth_mutliplier
+Built simulation snapshot tb_booth_mutliplier_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_booth_mutliplier_behav -key {Behavioral:sim_1:Functional:tb_booth_mutliplier} -tclbatch {tb_booth_mutliplier.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_booth_mutliplier.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_booth_mutliplier_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 2715.184 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+add_files -norecurse {C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/ripple_carry.vhd C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/full_adder.vhd C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/adder_sub.vhd}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/adder_sub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'adder_sub'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/full_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'full_adder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'booth_multiplier'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log"
+ECHO disattivato.
+ECHO disattivato.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-3006] 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim/xsim.dir/xil_defaultlib/ripple_carry.vdb' needs to be re-saved since 'xil_defaultlib.full_adder' changed
+ERROR: [VRFC 10-3032] 'xil_defaultlib.ripple_carry' failed to restore
+ERROR: [VRFC 10-3006] 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim/xsim.dir/xil_defaultlib/ripple_carry.vdb' needs to be re-saved since 'xil_defaultlib.full_adder' changed
+ERROR: [VRFC 10-3032] 'xil_defaultlib.ripple_carry' failed to restore
+ERROR: [VRFC 10-3006] 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim/xsim.dir/xil_defaultlib/ripple_carry.vdb' needs to be re-saved since 'xil_defaultlib.full_adder' changed
+ERROR: [VRFC 10-3032] 'xil_defaultlib.ripple_carry' failed to restore
+WARNING: [VRFC 10-4940] 'ripple_carry' remains a black box since it has no binding entity [C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/adder_sub.vhd:29]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_booth_mutliplier in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2718.805 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+export_ip_user_files -of_objects  [get_files C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/ripple_carry.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/ripple_carry.vhd
+file delete -force C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/ripple_carry.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/adder_subtracter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'adder_sub'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'booth_multiplier'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/full_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'full_adder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/ripple_carry.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ripple_carry'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log"
+ECHO disattivato.
+ECHO disattivato.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <a> does not exist in entity <full_adder>.  Please compare the definition of block <full_adder> to its component declaration and its instantion to detect the mismatch. [C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/ripple_carry.vhd:16]
+ERROR: [VRFC 10-718] formal port <cin> does not exist in entity <full_adder>.  Please compare the definition of block <full_adder> to its component declaration and its instantion to detect the mismatch. [C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/ripple_carry.vhd:17]
+ERROR: [VRFC 10-718] formal port <cout> does not exist in entity <full_adder>.  Please compare the definition of block <full_adder> to its component declaration and its instantion to detect the mismatch. [C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/ripple_carry.vhd:18]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_booth_mutliplier in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+export_ip_user_files -of_objects  [get_files C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/adder_subtracter.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/adder_subtracter.vhd
+file delete -force C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/adder_subtracter.vhd
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/adder_sub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'adder_sub'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log"
+ECHO disattivato.
+ECHO disattivato.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <a> does not exist in entity <full_adder>.  Please compare the definition of block <full_adder> to its component declaration and its instantion to detect the mismatch. [C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/ripple_carry.vhd:16]
+ERROR: [VRFC 10-718] formal port <cin> does not exist in entity <full_adder>.  Please compare the definition of block <full_adder> to its component declaration and its instantion to detect the mismatch. [C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/ripple_carry.vhd:17]
+ERROR: [VRFC 10-718] formal port <cout> does not exist in entity <full_adder>.  Please compare the definition of block <full_adder> to its component declaration and its instantion to detect the mismatch. [C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/ripple_carry.vhd:18]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_booth_mutliplier in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2718.805 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/full_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'full_adder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/ripple_carry.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ripple_carry'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/adder_sub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'adder_sub'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'booth_multiplier'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log"
+ECHO disattivato.
+ECHO disattivato.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.generic_register [generic_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_shiftreg [\generic_shiftreg(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.ext_mux_2x1 [\ext_mux_2x1(n=17)\]
+Compiling architecture rtl of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry [ripple_carry_default]
+Compiling architecture structural of entity xil_defaultlib.adder_sub [adder_sub_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_counter [\generic_counter(n=8,m=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.booth_multiplier [booth_multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_booth_mutliplier
+Built simulation snapshot tb_booth_mutliplier_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_booth_mutliplier_behav -key {Behavioral:sim_1:Functional:tb_booth_mutliplier} -tclbatch {tb_booth_mutliplier.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_booth_mutliplier.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_booth_mutliplier_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 2718.805 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/full_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'full_adder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'booth_multiplier'
+ERROR: [VRFC 10-3006] 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim/xsim.dir/xil_defaultlib/ripple_carry.vdb' needs to be re-saved since 'xil_defaultlib.full_adder' changed
+ERROR: [VRFC 10-3032] 'xil_defaultlib.ripple_carry' failed to restore
+ERROR: [VRFC 10-9342] registering dependencies error: The primary unit 'ripple_carry' in library 'xil_defaultlib' could not be found during restore
+ERROR: [VRFC 10-3032] 'xil_defaultlib.adder_sub' failed to restore
+ERROR: [VRFC 10-2987] 'adder_sub' is not compiled in library 'xil_defaultlib' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:70]
+ERROR: [VRFC 10-3006] 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim/xsim.dir/xil_defaultlib/ripple_carry.vdb' needs to be re-saved since 'xil_defaultlib.full_adder' changed
+ERROR: [VRFC 10-3032] 'xil_defaultlib.ripple_carry' failed to restore
+ERROR: [VRFC 10-9342] registering dependencies error: The primary unit 'ripple_carry' in library 'xil_defaultlib' could not be found during restore
+ERROR: [VRFC 10-3032] 'xil_defaultlib.adder_sub' failed to restore
+ERROR: [VRFC 10-9458] unit 'behavioral' is ignored due to previous errors [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:21]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/full_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'full_adder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'booth_multiplier'
+ERROR: [VRFC 10-3006] 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim/xsim.dir/xil_defaultlib/ripple_carry.vdb' needs to be re-saved since 'xil_defaultlib.full_adder' changed
+ERROR: [VRFC 10-3032] 'xil_defaultlib.ripple_carry' failed to restore
+ERROR: [VRFC 10-9342] registering dependencies error: The primary unit 'ripple_carry' in library 'xil_defaultlib' could not be found during restore
+ERROR: [VRFC 10-3032] 'xil_defaultlib.adder_sub' failed to restore
+ERROR: [VRFC 10-2987] 'adder_sub' is not compiled in library 'xil_defaultlib' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:70]
+ERROR: [VRFC 10-3006] 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim/xsim.dir/xil_defaultlib/ripple_carry.vdb' needs to be re-saved since 'xil_defaultlib.full_adder' changed
+ERROR: [VRFC 10-3032] 'xil_defaultlib.ripple_carry' failed to restore
+ERROR: [VRFC 10-9342] registering dependencies error: The primary unit 'ripple_carry' in library 'xil_defaultlib' could not be found during restore
+ERROR: [VRFC 10-3032] 'xil_defaultlib.adder_sub' failed to restore
+ERROR: [VRFC 10-9458] unit 'behavioral' is ignored due to previous errors [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:21]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/adder_sub.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/adder_sub.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/ripple_carry.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/ripple_carry.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/full_adder.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/full_adder.vhd
+file delete -force C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/full_adder.vhd
+close [ open C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/adder_subtracter.vhd w ]
+add_files C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/adder_subtracter.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/full_adder.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/chris/Downloads/Esercizio_7-1/Esercizio_7-1/Esercizio_7-1.srcs/sources_1/new/full_adder.vhd
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\chris\Downloads\exe-7.1\exe-7.1\exe-7.1.srcs\sim_1\new\testbench_boothmul.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\chris\Downloads\exe-7.1\exe-7.1\exe-7.1.srcs\sources_1\new\booth_multiplier.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\chris\Downloads\exe-7.1\exe-7.1\exe-7.1.srcs\sources_1\new\ripple_carry.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\chris\Downloads\exe-7.1\exe-7.1\exe-7.1.srcs\sources_1\new\adder_subtracter.vhd:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+close [ open C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/ripple_carry.vhd w ]
+add_files C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/ripple_carry.vhd
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\chris\Downloads\exe-7.1\exe-7.1\exe-7.1.srcs\sim_1\new\testbench_boothmul.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\chris\Downloads\exe-7.1\exe-7.1\exe-7.1.srcs\sources_1\new\booth_multiplier.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\chris\Downloads\exe-7.1\exe-7.1\exe-7.1.srcs\sources_1\new\ripple_carry.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\chris\Downloads\exe-7.1\exe-7.1\exe-7.1.srcs\sources_1\new\adder_subtracter.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\chris\Downloads\exe-7.1\exe-7.1\exe-7.1.srcs\sim_1\new\testbench_boothmul.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\chris\Downloads\exe-7.1\exe-7.1\exe-7.1.srcs\sources_1\new\booth_multiplier.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\chris\Downloads\exe-7.1\exe-7.1\exe-7.1.srcs\sources_1\new\ripple_carry.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\chris\Downloads\exe-7.1\exe-7.1\exe-7.1.srcs\sources_1\new\adder_subtracter.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\chris\Downloads\exe-7.1\exe-7.1\exe-7.1.srcs\sim_1\new\testbench_boothmul.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\chris\Downloads\exe-7.1\exe-7.1\exe-7.1.srcs\sources_1\new\booth_multiplier.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\chris\Downloads\exe-7.1\exe-7.1\exe-7.1.srcs\sources_1\new\ripple_carry.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\chris\Downloads\exe-7.1\exe-7.1\exe-7.1.srcs\sources_1\new\adder_subtracter.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\chris\Downloads\exe-7.1\exe-7.1\exe-7.1.srcs\sim_1\new\testbench_boothmul.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\chris\Downloads\exe-7.1\exe-7.1\exe-7.1.srcs\sources_1\new\booth_multiplier.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\chris\Downloads\exe-7.1\exe-7.1\exe-7.1.srcs\sources_1\new\ripple_carry.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\chris\Downloads\exe-7.1\exe-7.1\exe-7.1.srcs\sources_1\new\adder_subtracter.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+close [ open C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/full_adder.vhd w ]
+add_files C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/full_adder.vhd
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/full_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'full_adder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/ripple_carry.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ripple_carry'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/adder_subtracter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'adder_subtracter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'booth_multiplier'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log"
+ECHO disattivato.
+ECHO disattivato.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.generic_register [generic_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_shiftreg [\generic_shiftreg(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.ext_mux_2x1 [\ext_mux_2x1(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry [ripple_carry_default]
+Compiling architecture structural of entity xil_defaultlib.adder_subtracter [adder_subtracter_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_counter [\generic_counter(n=8,m=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.booth_multiplier [booth_multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_booth_mutliplier
+Built simulation snapshot tb_booth_mutliplier_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_booth_mutliplier_behav -key {Behavioral:sim_1:Functional:tb_booth_mutliplier} -tclbatch {tb_booth_mutliplier.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_booth_mutliplier.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_booth_mutliplier_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 2730.418 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'booth_multiplier'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log"
+ECHO disattivato.
+ECHO disattivato.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.generic_register [generic_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_shiftreg [\generic_shiftreg(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.ext_mux_2x1 [\ext_mux_2x1(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry [ripple_carry_default]
+Compiling architecture structural of entity xil_defaultlib.adder_subtracter [adder_subtracter_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_counter [\generic_counter(n=8,m=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.booth_multiplier [booth_multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_booth_mutliplier
+Built simulation snapshot tb_booth_mutliplier_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_booth_mutliplier_behav -key {Behavioral:sim_1:Functional:tb_booth_mutliplier} -tclbatch {tb_booth_mutliplier.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_booth_mutliplier.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_booth_mutliplier_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 2730.418 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'booth_multiplier'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log"
+ECHO disattivato.
+ECHO disattivato.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.generic_register [generic_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_shiftreg [\generic_shiftreg(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.ext_mux_2x1 [\ext_mux_2x1(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry [ripple_carry_default]
+Compiling architecture structural of entity xil_defaultlib.adder_subtracter [adder_subtracter_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_counter [\generic_counter(n=8,m=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.booth_multiplier [booth_multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_booth_mutliplier
+Built simulation snapshot tb_booth_mutliplier_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_booth_mutliplier_behav -key {Behavioral:sim_1:Functional:tb_booth_mutliplier} -tclbatch {tb_booth_mutliplier.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_booth_mutliplier.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_booth_mutliplier_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 2730.418 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'booth_multiplier'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log"
+ECHO disattivato.
+ECHO disattivato.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.generic_register [generic_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_shiftreg [\generic_shiftreg(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.ext_mux_2x1 [\ext_mux_2x1(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry [ripple_carry_default]
+Compiling architecture structural of entity xil_defaultlib.adder_subtracter [adder_subtracter_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_counter [\generic_counter(n=8,m=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.booth_multiplier [booth_multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_booth_mutliplier
+Built simulation snapshot tb_booth_mutliplier_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_booth_mutliplier_behav -key {Behavioral:sim_1:Functional:tb_booth_mutliplier} -tclbatch {tb_booth_mutliplier.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_booth_mutliplier.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_booth_mutliplier_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 2730.418 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'booth_multiplier'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log"
+ECHO disattivato.
+ECHO disattivato.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.generic_register [generic_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_shiftreg [\generic_shiftreg(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.ext_mux_2x1 [\ext_mux_2x1(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry [ripple_carry_default]
+Compiling architecture structural of entity xil_defaultlib.adder_subtracter [adder_subtracter_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_counter [\generic_counter(n=8,m=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.booth_multiplier [booth_multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_booth_mutliplier
+Built simulation snapshot tb_booth_mutliplier_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_booth_mutliplier_behav -key {Behavioral:sim_1:Functional:tb_booth_mutliplier} -tclbatch {tb_booth_mutliplier.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_booth_mutliplier.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_booth_mutliplier_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2747.328 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'booth_multiplier'
+WARNING: [VRFC 10-9374] signal 'cnt_len' is used in a subtype-indication or type-definition [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:32]
+WARNING: [VRFC 10-3092] actual expression for generic 'm' cannot reference a signal [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:75]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log"
+ECHO disattivato.
+ECHO disattivato.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:32]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:75]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:75]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.generic_register [generic_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_shiftreg [\generic_shiftreg(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.ext_mux_2x1 [\ext_mux_2x1(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry [ripple_carry_default]
+Compiling architecture structural of entity xil_defaultlib.adder_subtracter [adder_subtracter_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_counter [\generic_counter(n=8,m=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.booth_multiplier [booth_multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_booth_mutliplier
+Built simulation snapshot tb_booth_mutliplier_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_booth_mutliplier_behav -key {Behavioral:sim_1:Functional:tb_booth_mutliplier} -tclbatch {tb_booth_mutliplier.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_booth_mutliplier.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_booth_mutliplier_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 2747.328 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'booth_multiplier'
+WARNING: [VRFC 10-9374] signal 'cnt_len' is used in a subtype-indication or type-definition [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:32]
+WARNING: [VRFC 10-3092] actual expression for generic 'm' cannot reference a signal [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:75]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log"
+ECHO disattivato.
+ECHO disattivato.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:32]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:75]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:75]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.generic_register [generic_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_shiftreg [\generic_shiftreg(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.ext_mux_2x1 [\ext_mux_2x1(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry [ripple_carry_default]
+Compiling architecture structural of entity xil_defaultlib.adder_subtracter [adder_subtracter_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_counter [\generic_counter(n=8,m=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.booth_multiplier [booth_multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_booth_mutliplier
+Built simulation snapshot tb_booth_mutliplier_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_booth_mutliplier_behav -key {Behavioral:sim_1:Functional:tb_booth_mutliplier} -tclbatch {tb_booth_mutliplier.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_booth_mutliplier.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_booth_mutliplier_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 2756.805 ; gain = 9.477
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'booth_multiplier'
+WARNING: [VRFC 10-9374] signal 'cnt_len' is used in a subtype-indication or type-definition [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:32]
+WARNING: [VRFC 10-3092] actual expression for generic 'm' cannot reference a signal [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:75]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log"
+ECHO disattivato.
+ECHO disattivato.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:32]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:75]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:75]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.generic_register [generic_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_shiftreg [\generic_shiftreg(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.ext_mux_2x1 [\ext_mux_2x1(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry [ripple_carry_default]
+Compiling architecture structural of entity xil_defaultlib.adder_subtracter [adder_subtracter_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_counter [\generic_counter(n=8,m=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.booth_multiplier [booth_multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_booth_mutliplier
+Built simulation snapshot tb_booth_mutliplier_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_booth_mutliplier_behav -key {Behavioral:sim_1:Functional:tb_booth_mutliplier} -tclbatch {tb_booth_mutliplier.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_booth_mutliplier.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_booth_mutliplier_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 2756.805 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log"
+ECHO disattivato.
+ECHO disattivato.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:32]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:75]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:75]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.generic_register [generic_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_shiftreg [\generic_shiftreg(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.ext_mux_2x1 [\ext_mux_2x1(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry [ripple_carry_default]
+Compiling architecture structural of entity xil_defaultlib.adder_subtracter [adder_subtracter_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_counter [\generic_counter(n=8,m=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.booth_multiplier [booth_multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_booth_mutliplier
+Built simulation snapshot tb_booth_mutliplier_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_booth_mutliplier_behav -key {Behavioral:sim_1:Functional:tb_booth_mutliplier} -tclbatch {tb_booth_mutliplier.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_booth_mutliplier.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_booth_mutliplier_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 2756.805 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log"
+ECHO disattivato.
+ECHO disattivato.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:32]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:75]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:75]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.generic_register [generic_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_shiftreg [\generic_shiftreg(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.ext_mux_2x1 [\ext_mux_2x1(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry [ripple_carry_default]
+Compiling architecture structural of entity xil_defaultlib.adder_subtracter [adder_subtracter_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_counter [\generic_counter(n=8,m=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.booth_multiplier [booth_multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_booth_mutliplier
+Built simulation snapshot tb_booth_mutliplier_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_booth_mutliplier_behav -key {Behavioral:sim_1:Functional:tb_booth_mutliplier} -tclbatch {tb_booth_mutliplier.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_booth_mutliplier.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_booth_mutliplier_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 2756.805 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log"
+ECHO disattivato.
+ECHO disattivato.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:32]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:75]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:75]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.generic_register [generic_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_shiftreg [\generic_shiftreg(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.ext_mux_2x1 [\ext_mux_2x1(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry [ripple_carry_default]
+Compiling architecture structural of entity xil_defaultlib.adder_subtracter [adder_subtracter_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_counter [\generic_counter(n=8,m=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.booth_multiplier [booth_multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_booth_mutliplier
+Built simulation snapshot tb_booth_mutliplier_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_booth_mutliplier_behav -key {Behavioral:sim_1:Functional:tb_booth_mutliplier} -tclbatch {tb_booth_mutliplier.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_booth_mutliplier.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_booth_mutliplier_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2756.805 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'booth_multiplier'
+WARNING: [VRFC 10-9374] signal 'cnt_len' is used in a subtype-indication or type-definition [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:32]
+WARNING: [VRFC 10-3092] actual expression for generic 'm' cannot reference a signal [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:75]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log"
+ECHO disattivato.
+ECHO disattivato.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:32]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:75]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:75]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.generic_register [generic_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_shiftreg [\generic_shiftreg(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.ext_mux_2x1 [\ext_mux_2x1(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry [ripple_carry_default]
+Compiling architecture structural of entity xil_defaultlib.adder_subtracter [adder_subtracter_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_counter [\generic_counter(n=8,m=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.booth_multiplier [booth_multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_booth_mutliplier
+Built simulation snapshot tb_booth_mutliplier_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_booth_mutliplier_behav -key {Behavioral:sim_1:Functional:tb_booth_mutliplier} -tclbatch {tb_booth_mutliplier.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_booth_mutliplier.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_booth_mutliplier_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 2758.066 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log"
+ECHO disattivato.
+ECHO disattivato.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:32]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:75]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:75]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.generic_register [generic_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_shiftreg [\generic_shiftreg(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.ext_mux_2x1 [\ext_mux_2x1(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry [ripple_carry_default]
+Compiling architecture structural of entity xil_defaultlib.adder_subtracter [adder_subtracter_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_counter [\generic_counter(n=8,m=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.booth_multiplier [booth_multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_booth_mutliplier
+Built simulation snapshot tb_booth_mutliplier_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_booth_mutliplier_behav -key {Behavioral:sim_1:Functional:tb_booth_mutliplier} -tclbatch {tb_booth_mutliplier.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_booth_mutliplier.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_booth_mutliplier_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 2758.066 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_booth_mutliplier'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_booth_mutliplier' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_booth_mutliplier_vhdl.prj"
+ECHO disattivato.
+ECHO disattivato.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sim_1/new/testbench_boothmul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_booth_mutliplier'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log"
+ECHO disattivato.
+ECHO disattivato.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_booth_mutliplier_behav xil_defaultlib.tb_booth_mutliplier -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:32]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:75]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'cnt_len' [C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.srcs/sources_1/new/booth_multiplier.vhd:75]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.generic_register [generic_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_shiftreg [\generic_shiftreg(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.ext_mux_2x1 [\ext_mux_2x1(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry [ripple_carry_default]
+Compiling architecture structural of entity xil_defaultlib.adder_subtracter [adder_subtracter_default]
+Compiling architecture behavioral of entity xil_defaultlib.generic_counter [\generic_counter(n=8,m=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.booth_multiplier [booth_multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_booth_mutliplier
+Built simulation snapshot tb_booth_mutliplier_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/chris/Downloads/exe-7.1/exe-7.1/exe-7.1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_booth_mutliplier_behav -key {Behavioral:sim_1:Functional:tb_booth_mutliplier} -tclbatch {tb_booth_mutliplier.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_booth_mutliplier.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_booth_mutliplier_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2758.066 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  2 22:41:52 2024...
