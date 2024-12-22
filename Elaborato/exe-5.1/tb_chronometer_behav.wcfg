@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_chronometer_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_chronometer" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="587.850 ns"></ZoomStartTime>
+      <ZoomEndTime time="668.400 ns"></ZoomEndTime>
+      <Cursor1Time time="615.039 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="99"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/tb_chronometer/clk_tb" type="logic">
+      <obj_property name="ElementShortName">clk_tb</obj_property>
+      <obj_property name="ObjectShortName">clk_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chronometer/start_tb" type="logic">
+      <obj_property name="ElementShortName">start_tb</obj_property>
+      <obj_property name="ObjectShortName">start_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chronometer/rst_tb" type="logic">
+      <obj_property name="ElementShortName">rst_tb</obj_property>
+      <obj_property name="ObjectShortName">rst_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chronometer/set_tb" type="logic">
+      <obj_property name="ElementShortName">set_tb</obj_property>
+      <obj_property name="ObjectShortName">set_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chronometer/ss_set_tb" type="array">
+      <obj_property name="ElementShortName">ss_set_tb[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ss_set_tb[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chronometer/mm_set_tb" type="array">
+      <obj_property name="ElementShortName">mm_set_tb[5:0]</obj_property>
+      <obj_property name="ObjectShortName">mm_set_tb[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chronometer/hh_set_tb" type="array">
+      <obj_property name="ElementShortName">hh_set_tb[4:0]</obj_property>
+      <obj_property name="ObjectShortName">hh_set_tb[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chronometer/ss_tb" type="array">
+      <obj_property name="ElementShortName">ss_tb[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ss_tb[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chronometer/mm_tb" type="array">
+      <obj_property name="ElementShortName">mm_tb[5:0]</obj_property>
+      <obj_property name="ObjectShortName">mm_tb[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chronometer/hh_tb" type="array">
+      <obj_property name="ElementShortName">hh_tb[4:0]</obj_property>
+      <obj_property name="ObjectShortName">hh_tb[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chronometer/ended_tb" type="logic">
+      <obj_property name="ElementShortName">ended_tb</obj_property>
+      <obj_property name="ObjectShortName">ended_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chronometer/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chronometer/chronom/ss_cnt/ended" type="logic">
+      <obj_property name="ElementShortName">ended</obj_property>
+      <obj_property name="ObjectShortName">ended</obj_property>
+   </wvobject>
+</wave_config>
